@@ -2,36 +2,35 @@
 # Supervised Learning
 ## Project: Finding Donors for CharityML
 
-### Install
+> Paulo Rocha
 
-This project requires **Python 3.x** and the following Python libraries installed:
+## About
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+A challenge to evaluate knowledge in Machine Learning.
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+# Librarys and packages
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Jupyter
+
+## How to test it locally
+
+1. run `git clone https://gitlab.com/datasciencebr/test-paulo-rocha.git` to clone this repository
+2. `git checkout solution` to access the solution branch with the results
+2. make sure you have python 3 installed in your local machine, you can download at `https://python.org`
+3. `cd test-paulo-rocha/` then run `virtualenv env --python=python3` to create the python environment
+4. `source env/bin/activate` to start the environment and `pip install -r requirements.txt` to install the librarys
+5. `jupyter notebook solution.ipynb` to initialize the jupyter notebook
+6. `git clone https://github.com/openfootball/br-brazil` to get the original resources 
+
 
 ### Code
 
 Template code is provided in the `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook finding_donors.ipynb
-```  
-or
-```bash
-jupyter notebook finding_donors.ipynb
-```
-
-This will open the iPython Notebook software and project file in your browser.
 
 ### Data
 
